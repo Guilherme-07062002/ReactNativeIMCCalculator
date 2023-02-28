@@ -5,8 +5,8 @@ import Main from './src/Components/Main';
 export default function App() {
   return (
     <View style={styles.container}>
-     <Title/>
-     <Main/>
+      <Title />
+      <Main />
     </View>
   );
 }
@@ -14,8 +14,8 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: '#e0e5e5',
     alignItems: 'center',
-    justifyContent: 'center',
+    justifyContent: 'center'
   },
 });
